@@ -53,7 +53,7 @@ proc surveyselect data=air out=Boot_Air
 									4) sampreate =1 -- places a 100% sampling rate 
 									5) method= urs -- sample with replacement 
 									6) outhits -- full data set displayed 
-									7) rep 100 -- 1000 psuedo samples*/
+									7) rep 1000 -- 1000 psuedo samples*/
 run;
 
 		/*proc univeriate is creating bounds for the 95% confidence interval*/ 
